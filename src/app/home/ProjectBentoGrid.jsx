@@ -50,8 +50,8 @@ export function ProjectBentoGrid() {
                     />
                 ))}
                 <Drawer open={open} onOpenChange={setOpen}>
-                    <DrawerContent className="h-[1000px]">
-                        {currentItem && <ProjectDetail item={currentItem} /> }
+                    <DrawerContent className="h-[500px]">
+                        {currentItem && <ProjectDetail {...currentItem} /> }
                     </DrawerContent>
                 </Drawer>
             </BentoGrid>
@@ -72,11 +72,15 @@ const items = [
         description: "AI-powered image generator @deimaginify.xyz",
         header: <Skeleton imageUrl="/project/deimgggg.png"/>,
         icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
+        imageUrl: "/project/deimgggg.png",
+        detail: "DeImaginify is an AI-powered image generator that can create images from text descriptions. It is a web-based application that uses GPT-3 to generate images from text descriptions. The application is built using React and TailwindCSS. It is hosted on Vercel and uses the OpenAI API to generate images. " +
+            "The application is built using React and TailwindCSS. It is hosted on Vercel and uses the OpenAI API to generate images."
     },
     {
         title: "BlockPay 8",
         description: "Discover the beauty of thoughtful and functional design.",
         header: <Skeleton imageUrl="/project/defilama.png"/>,
+        imageUrl: "/project/defilama.png",
         icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
     },
 

@@ -13,9 +13,9 @@ export default function Home({darkMode, toggleDarkMode}) {
             <Header/>
             <HeroPage/>
             <ProjectBentoGrid/>
-            <BouncyCardsFeatures/>
+            {/*<BouncyCardsFeatures/>*/}
             {/*<BentoGridThirdDemo/>*/}
-            {/*<Footer/>*/}
+            <Footer/>
 
         </div>
 

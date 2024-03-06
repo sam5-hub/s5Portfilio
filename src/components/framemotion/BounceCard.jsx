@@ -5,7 +5,7 @@ const BounceCard = ({className, children}) => {
     return (
         <motion.div
             whileHover={{scale: 0.95, rotate: "-1deg"}}
-            className={`group relative min-h-[300px] cursor-pointer overflow-hidden rounded-2xl bg-black p-8 ${className}`}
+            className={`group relative min-h-[300px] cursor-pointer overflow-hidden rounded-2xl  p-8 ${className}`}
         >
             {children}
         </motion.div>

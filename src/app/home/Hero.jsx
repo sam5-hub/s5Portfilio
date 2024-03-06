@@ -9,32 +9,32 @@ const frontendStack = [
     {
         id: 1,
         name: "React",
-        image: '/techStack/react.svg',
+        image: '/techStack/frontend/react.svg',
         designation: "90%",
     },
     {
         id: 2,
         name: "Javascript",
         designation: "90%",
-        image: '/techStack/javascript.svg',
+        image: '/techStack/frontend/javascript.svg',
     },
     {
         id: 3,
-        name: "Java",
-        designation: "Spring Boot & Spring Cloud",
-        image: '/techStack/java.svg',
+        name: "Framer Motion",
+        designation: "Framer Motion ",
+        image: '/techStack/frontend/framer-motion.svg',
     },
     {
         id: 4,
-        name: "Web3 & Solidity",
-        designation: "Web3.js & Ethers.js",
-        image: '/techStack/eth.svg',
+        name: "NextJS",
+        designation: "nextjs & gatsby & vite",
+        image: '/techStack/frontend/next-js.svg',
     },
     {
         id: 5,
-        name: "CI/CD",
-        designation: "DevOps & Docker & Kubernetes",
-        image: '/techStack/docker.svg',
+        name: "Vue",
+        designation: "vue & nuxt & vite",
+        image: '/techStack/frontend/vue.svg',
     },
 ];
 const backendStack = [
@@ -43,13 +43,19 @@ const backendStack = [
         id: 3,
         name: "Java",
         designation: "Spring Boot & Spring Cloud",
-        image: '/techStack/java.svg',
+        image: '/techStack/backend/java.svg',
+    },
+    {
+        id: 4,
+        name: "NodeJS",
+        designation: "nodejs & expressjs & nestjs",
+        image: '/techStack/frontend/nodejs.svg',
     },
     {
         id: 5,
         name: "CI/CD",
         designation: "DevOps & Docker & Kubernetes",
-        image: '/techStack/docker.svg',
+        image: '/techStack/backend/docker.svg',
     },
 ];
 const blockchainStack = [
